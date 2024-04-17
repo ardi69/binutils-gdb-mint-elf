@@ -12094,7 +12094,7 @@ if test "${with_pkgversion+set}" = set; then :
       *)   PKGVERSION="($withval) " ;;
      esac
 else
-  PKGVERSION="(GNU Binutils) "
+  PKGVERSION="(GNU Binutils for MiNT) "
 
 fi
 
@@ -15179,7 +15179,7 @@ _ACEOF
 
 
 case "${host}" in
-*-*-msdos* | *-*-go32* | *-*-mingw32* | *-*-cygwin* | *-*-windows*)
+*-*-msdos* | *-*-go32* | *-*-mingw32* | *-*-cygwin* | *-*-windows* | *-*-mint*)
 
 $as_echo "#define USE_BINARY_FOPEN 1" >>confdefs.h
  ;;
